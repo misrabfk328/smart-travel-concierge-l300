@@ -3277,7 +3277,7 @@ wheels = [
 ]
 
 [[package]]
-name = "smart-travel-concierge"
+name = "smart-travel-concierge-l300"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

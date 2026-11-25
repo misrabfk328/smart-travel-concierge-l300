@@ -1,6 +1,6 @@
 # VoyagerAI: Smart Travel & Budget Concierge
 
-**VoyagerAI** (`smart-travel-concierge`) is a multi-agent travel planning and booking concierge built with **Google Agent Development Kit (ADK-Python 2.x)** and **Google Agents CLI (`agents-cli`)**. It solves the tedious problem of coordinating flight/lodging inventory, destination advisories, strict budget math, cross-session traveler preferences, and high-stakes reservations across separate apps.
+**VoyagerAI** (`smart-travel-concierge-l300`) is a multi-agent travel planning and booking concierge built with **Google Agent Development Kit (ADK-Python 2.x)** and **Google Agents CLI (`agents-cli`)**. It solves the tedious problem of coordinating flight/lodging inventory, destination advisories, strict budget math, cross-session traveler preferences, and high-stakes reservations across separate apps.
 
 ## Architecture
 
@@ -40,7 +40,7 @@ flowchart TD
 ## Project Structure
 
 ```text
-smart-travel-concierge/
+smart-travel-concierge-l300/
 ├── app/
 │   ├── agent.py                  # Coordinator, Workflow, sub-agents, and ADK App
 │   ├── guardrails.py             # TravelSafetyAndPolicyPlugin (input/output & Model Armor)

@@ -76,7 +76,9 @@ def clear_recorded_spans() -> None:
     _SPAN_RECORDER.clear()
 
 
-def configure_tracing(service_name: str = "smart-travel-concierge") -> trace.Tracer:
+def configure_tracing(
+    service_name: str = "smart-travel-concierge-l300",
+) -> trace.Tracer:
     """Initialize OpenTelemetry TracerProvider with Cloud Trace + local span capture."""
     global _TRACING_CONFIGURED
     if not _TRACING_CONFIGURED:

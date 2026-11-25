@@ -1,4 +1,4 @@
-name: "smart-travel-concierge"
+name: "smart-travel-concierge-l300"
 acli_version: "1.15.0"
 agent_directory: "app"
 region: 'us-central1'

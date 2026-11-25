@@ -45,7 +45,8 @@ class PiiScrubbingJsonFormatter(JsonFormatter):
         log_data.setdefault("severity", record.levelname)
         log_data.setdefault("logger", record.name)
         log_data.setdefault(
-            "service", os.environ.get("OTEL_SERVICE_NAME", "smart-travel-concierge")
+            "service",
+            os.environ.get("OTEL_SERVICE_NAME", "smart-travel-concierge-l300"),
         )
 
         span = trace.get_current_span()

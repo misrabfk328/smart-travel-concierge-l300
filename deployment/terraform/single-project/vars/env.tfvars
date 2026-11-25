@@ -1,5 +1,5 @@
 # Project name used for resource naming
-project_name = "smart-travel-concierge"
+project_name = "smart-travel-concierge-l300"
 
 # Your Google Cloud project id
 project_id = "your-gcp-project-id"

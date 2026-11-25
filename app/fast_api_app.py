@@ -76,8 +76,8 @@ app: FastAPI = get_fast_api_app(
     otel_to_cloud=otel_to_cloud,
     lifespan=lifespan,
 )
-app.title = "smart-travel-concierge"
-app.description = "API for interacting with the Agent smart-travel-concierge"
+app.title = "smart-travel-concierge-l300"
+app.description = "API for interacting with the Agent smart-travel-concierge-l300"
 
 # Proxy routes so the Google Cloud console playground (reasoning_engine SDK) can
 # talk to this agent alongside the native adk_api routes.

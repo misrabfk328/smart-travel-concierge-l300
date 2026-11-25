@@ -2,7 +2,7 @@
 
 ## 1. Overview & Problem Statement
 
-Planning multi-day trips within a strict budget requires coordinating flight and lodging searches, destination travel advisories, deterministic cost math, cross-session traveler preferences, and confirmation-gated booking actions. **VoyagerAI** (`smart-travel-concierge`) is a multi-agent **Smart Travel & Budget Concierge** built on **Google Agent Development Kit (ADK-Python 2.x)** that persists traveler preferences across sessions, runs parallel destination research workflows, optimizes itineraries under a hard budget cap, redacts PII before logging or persistence, and enforces human-in-the-loop (HITL) approval prior to any financial booking.
+Planning multi-day trips within a strict budget requires coordinating flight and lodging searches, destination travel advisories, deterministic cost math, cross-session traveler preferences, and confirmation-gated booking actions. **VoyagerAI** (`smart-travel-concierge-l300`) is a multi-agent **Smart Travel & Budget Concierge** built on **Google Agent Development Kit (ADK-Python 2.x)** that persists traveler preferences across sessions, runs parallel destination research workflows, optimizes itineraries under a hard budget cap, redacts PII before logging or persistence, and enforces human-in-the-loop (HITL) approval prior to any financial booking.
 
 ## 2. Multi-Agent Architecture & Strategic Model Routing
 

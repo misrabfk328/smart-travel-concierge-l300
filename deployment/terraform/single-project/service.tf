@@ -58,7 +58,7 @@ resource "google_vertex_ai_reasoning_engine" "app" {
 
       env {
         name  = "OTEL_SERVICE_NAME"
-        value = "smart-travel-concierge"
+        value = "smart-travel-concierge-l300"
       }
 
       # Prompt/response content capture, off by default. Go: set "true" to log
