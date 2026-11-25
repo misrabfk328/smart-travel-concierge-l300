@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .agent import app
+from dotenv import load_dotenv
+
+load_dotenv()
+
+from .agent import app  # noqa: E402
 
 __all__ = ["app"]

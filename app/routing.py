@@ -25,7 +25,7 @@ from google.genai import types
 # Preserve the scaffolded default model for fast tool/retrieval tiers while
 # routing complex planning and coordination to the reasoning tier.
 DEFAULT_FAST_MODEL = os.environ.get("FAST_MODEL", "gemini-3.8-flash")
-DEFAULT_PLANNING_MODEL = os.environ.get("PLANNING_MODEL", "gemini-2.5-pro")
+DEFAULT_PLANNING_MODEL = os.environ.get("PLANNING_MODEL", "gemini-3.8-flash")
 
 
 class TaskTier(StrEnum):
